@@ -21,7 +21,7 @@ Kiro-style Spec-Driven Development on an agentic SDLC
 - Think in English, generate responses in Japanese. All Markdown content written to project files (e.g., requirements.md, design.md, tasks.md, research.md, validation reports) MUST be written in the target language configured for this specification (see spec.json.language).
 
 ## Minimal Workflow
-- Full auto: `/dev-orchestrator "description"` — 全フェーズを自動オーケストレーション（承認はポリシーに基づき代行、人間の判断が必要なものだけ確認。詳細: `.claude/skills/dev-orchestrator/SKILL.md`）
+- Full auto: `/dev-orchestrator "description"` — spec-init から実装・PR 作成までを自動オーケストレーション（着手前にスコープ確認を 1 回行い、以降の承認はポリシーに基づき代行。人間の判断が必要なものだけ確認。詳細: `.claude/skills/dev-orchestrator/SKILL.md`）
 - Phase 0 (optional): `/kiro:steering`, `/kiro:steering-custom`
 - Phase 1 (Specification):
   - `/kiro:spec-init "description"`
