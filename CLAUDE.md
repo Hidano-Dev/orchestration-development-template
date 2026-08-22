@@ -7,3 +7,4 @@
 -->
 
 @.claude/rules/sdd-workflow.md
+@.claude/rules/git-workflow.md
